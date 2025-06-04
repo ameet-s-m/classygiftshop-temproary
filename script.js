@@ -57,7 +57,7 @@ function checkout(platform) {
     return;
   }
 
-  let message = "Hello! I would like to place the following order from Classy Gift Shop:%0A";
+  let message = "Hello Mam! I would like to place the following order from Classy Gift Shop:%0A";
   cartItems.forEach(item => {
     message += `- ${item.name} x ${item.quantity}%0A`;
   });
