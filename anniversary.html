@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classy Gift Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="logo">Classy Gift Shop</div>
+  <nav class="navbar">
+    <a href="birthday.html">Birthday</a>
+    <a href="wedding.html">Wedding</a>
+    <a href="anniversary.html">Anniversary</a>
+    <a href="babyshower.html">Baby Shower</a>
+    <a href="friendship.html">Friendship</a>
+    <a href="memory.html">Our Best Sellers</a>
+  </nav>
+  <div class="cart">
+    <a href="cart.html" id="cart-link">🛒 Cart</a>
+  </div>
+</header>
+
+<section class="product-showcase">
+  <h2>Anniversary Gifts</h2>
+  <div class="product-list">
+    <div class="product-item">
+      <img src="product1.jpg" alt="Product 1">
+      <p>Anniversary Gift Item 1</p>
+      <button onclick="addToCart('Anniversary Gift Item 1')">Add to Cart</button>
+    </div>
+    <div class="product-item">
+      <img src="product2.jpg" alt="Product 2">
+      <p>Anniversary Gift Item 2</p>
+      <button onclick="addToCart('Anniversary Gift Item 2')">Add to Cart</button>
+    </div>
+    <div class="product-item">
+      <img src="product3.jpg" alt="Product 3">
+      <p>Anniversary Gift Item 3</p>
+      <button onclick="addToCart('Anniversary Gift Item 3')">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; Classy Gift Shop. All Rights Reserved.</p>
+  <div class="social-icons">
+    <a href="https://www.instagram.com/classy_gift_shop/">Instagram</a> | 
+    <a href="https://wa.me/919480191392">WhatsApp</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
